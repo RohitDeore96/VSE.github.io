@@ -3,3 +3,5 @@ faiss-cpu
 torch
 torchvision
 Pillow
+numpy
+scikit-learn
