@@ -1,3 +1,4 @@
+import os
 import pickle
 
 index_path = 'static/index/faiss.index'
