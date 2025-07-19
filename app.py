@@ -1,5 +1,6 @@
 import os
 import pickle
+import faiss
 
 index_path = 'static/index/faiss.index'
 paths_path = 'static/index/paths.pkl'
