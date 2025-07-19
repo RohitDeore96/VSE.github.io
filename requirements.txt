@@ -1,0 +1,5 @@
+flask
+faiss-cpu
+torch
+torchvision
+Pillow
