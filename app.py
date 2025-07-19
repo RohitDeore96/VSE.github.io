@@ -1,7 +1,13 @@
 import os
 import pickle
 import faiss
+from flask import Flask
 
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Hello, your app is working!"
 index_path = 'static/index/faiss.index'
 paths_path = 'static/index/paths.pkl'
 
